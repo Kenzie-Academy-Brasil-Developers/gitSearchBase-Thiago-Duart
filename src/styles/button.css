@@ -1,0 +1,43 @@
+.index__section-second form button,
+.error__section-first button {
+  background-color: var(--color-brand-2);
+  font-size: 0.9rem;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  color: var(--color-grey-7);
+  cursor: pointer;
+}
+
+.error__section-first button {
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.index__section-second form button:hover,
+.error__section-first button:hover {
+  background-color: var(--color-brand-1);
+}
+
+.profile__header button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 19px 25px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-grey-7);
+  cursor: pointer;
+}
+
+.profile__header button:hover {
+  background: var(--color-grey-1);
+}
+
+@media (min-width: 768px) {
+  .profile__header button {
+    width: auto;
+  }
+}
