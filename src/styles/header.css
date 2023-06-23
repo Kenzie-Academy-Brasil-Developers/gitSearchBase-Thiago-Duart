@@ -9,13 +9,17 @@
   justify-content: center;
 }
 
-.profile_div {
+.profile_div{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
-
+.profile_div img{
+  border-radius: 50%;
+  width: 100px;
+  border: 3px solid var(--color-brand-2);
+}
 .profile_div p {
   font-size: 1.6rem;
   font-weight: 700;
